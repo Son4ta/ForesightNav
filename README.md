@@ -1,13 +1,13 @@
-# ForesightVLN: Dynamic Adaptive Framework for Efficient Zero-Shot Navigation in Semantically Sparse Environments
+# ForesightNAV: Dynamic Adaptive Framework for Efficient Zero-Shot Navigation in Semantically Sparse Environments
 
 ### Anonymous
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#license)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)
 
-Official PyTorch implementation for the paper **"ForesightVLN: Dynamic Adaptive Framework for Efficient Zero-Shot Navigation in Semantically Sparse Environments"**.
+Official PyTorch implementation for the paper **"ForesightNAV: Dynamic Adaptive Framework for Efficient Zero-Shot Navigation in Semantically Sparse Environments"**.
 
-ForesightVLN is a universal, **zero-shot** framework for Vision-Language Navigation (VLN) that excels in challenging, semantically sparse environments. It intelligently balances broad, efficient exploration with precise target localization to navigate efficiently without any task-specific training. Our work builds upon the excellent foundation laid by the UniGoal project.
+ForesightNAV is a universal, **zero-shot** framework for Vision-Language Navigation (VLN) that excels in challenging, semantically sparse environments. It intelligently balances broad, efficient exploration with precise target localization to navigate efficiently without any task-specific training. Our work builds upon the excellent foundation laid by the UniGoal project.
 
 ![ForesightVLN](assets/111.jpg)
 ![ForesightVLN](assets/271.png)
@@ -27,17 +27,17 @@ ForesightVLN is a universal, **zero-shot** framework for Vision-Language Navigat
 ### Step 1: Clone Repository & Create Environment
 
 ```bash
-# Clone the ForesightVLN repository
+# Clone the ForesightNAV repository
 <<<<<<< HEAD
-git clone [https://github.com/anonymous.4open.science/r/ForesightVLN.git](https://github.com/anonymous.4open.science/r/ForesightVLN.git)
+git clone [https://github.com/anonymous.4open.science/r/ForesightNAV.git](https://github.com/anonymous.4open.science/r/ForesightNAV.git)
 =======
-git clone [https://github.com/your-username/ForesightVLN.git](https://github.com/your-username/ForesightVLN.git)
+git clone [https://github.com/your-username/ForesightNAV.git](https://github.com/your-username/ForesightNAV.git)
 >>>>>>> f1bc0bbb4d64ea140cad7e8d8e4b31f6c4b26abe
-cd ForesightVLN
+cd ForesightNAV
 
 # Create and activate a Conda environment
-conda create -n foresightvln python=3.8 -y
-conda activate foresightvln
+conda create -n ForesightNAV python=3.8 -y
+conda activate ForesightNAV
 ````
 
 ### Step 2: Install Dependencies
@@ -121,7 +121,7 @@ Download the required datasets for the navigation tasks.
 Please structure your `data` directory as follows:
 
 ```
-ForesightVLN/
+ForesightNAV/
 └── data/
     ├── datasets/
     │   ├── textnav/
@@ -173,7 +173,7 @@ python main.py --config-file configs/config_ai2thor.yaml --goal_type object
 The repository is organized as follows:
 
 ```
-ForesightVLN/
+ForesightNAV/
 ├── main.py                    # Main script for running evaluation
 ├── configs/                   # Configuration files for different environments and tasks
 ├── src/
@@ -203,7 +203,7 @@ If you find our work useful for your research, please consider citing our paper:
 
 ```bibtex
 @inproceedings{Anonymous,
-  title={ForesightVLN: Dynamic Adaptive Framework for Efficient Zero-Shot Navigation in Semantically Sparse Environments},
+  title={ForesightNAV: Dynamic Adaptive Framework for Efficient Zero-Shot Navigation in Semantically Sparse Environments},
   author={Anonymous},
   booktitle={Anonymous},
   year={2025}
